@@ -1,0 +1,22 @@
+<%= form_with(model: dare) do |form| %>
+  <% if dare.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(dare.errors.count, "error") %> prohibited this dare from being saved:</h2>
+
+      <ul>
+        <% dare.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :text %>
+    <%= form.text_area :text %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
