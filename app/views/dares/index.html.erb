@@ -1,12 +1,8 @@
-<head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
-</head>
-
 <p id="notice"><%= notice %>
 
-<h1 class =dares>Dares</h1>
+</p>
+
+<h1 class =dares>Action</h1>
 
 <table>
   <thead>
@@ -14,6 +10,9 @@
       <th>Text</th>
       <th colspan="3"></th>
     </tr>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
   </thead>
 
   <tbody>
@@ -25,6 +24,7 @@
         <td><%= link_to 'Destroy', dare, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
+
   </tbody>
 </table>
 
@@ -32,4 +32,3 @@
 
 <%= link_to 'New Dare', new_dare_path %>
 </button>
-
