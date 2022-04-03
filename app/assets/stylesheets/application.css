@@ -15,17 +15,50 @@
  */
 @import 'bootstrap';
 
-.dares{
 
+
+.dares{
     color:#FF0044;
     font-family: 'Coming Soon', cursive;
 
 }
 
 .truths{
- color:#2476FE;
+    color:#2476FE;
     font-family: 'Coming Soon', cursive; 
 }
 
+#rouge a{
+     color:#FF0044;
+     font-family:'Coming Soon', cursive; 
+     text-decoration:none;
+     font-size: 100px;
+     display: flex;
+     justify-content: flex-start;
+     line-height: 0px;
+     
+    
+}
+
+#bleue a{
+color:#2476FE;
+font-family:'Coming Soon', cursive; 
+text-decoration:none;
+font-size: 100px;
+display: flex;
+justify-content: flex-end;
+line-height: 0px;
+padding-right: 150px;
+
+  }
 
 
+body{
+    font-family:'Coming Soon', cursive; 
+    color: black;
+    display: flex;
+    font-size: 50px;
+    line-height: 160px;
+    justify-content: space-between;
+    padding-left: 150px;
+}
