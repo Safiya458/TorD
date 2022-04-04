@@ -13,14 +13,14 @@
  *= require_tree .
  *= require_self
  */
- 
-/* @import 'bootstrap';*/
 
+@import 'bootstrap';
 
 
 .dares{
     color:#FF0044;
     font-family: 'Coming Soon', cursive;
+    line-height: 150px; 
 
 }
 
@@ -36,7 +36,7 @@
      font-size: 100px;
      display: flex;
      justify-content: flex-start;
-     line-height: 0px;
+     line-height: 500px;
      
     
 }
@@ -48,7 +48,7 @@ text-decoration:none;
 font-size: 100px;
 display: flex;
 justify-content: flex-end;
-line-height: 0px;
+line-height: 500px;
 padding-right: 150px;
 
   }
@@ -58,8 +58,17 @@ body{
     font-family:'Coming Soon', cursive; 
     color: black;
     display: flex;
-    font-size: 50px;
-    line-height: 160px;
+    font-size: 70px;
     justify-content: space-between;
     padding-left: 150px;
+    line-height: 500px;
+    background-color: #E9E9E9;
+}
+
+strong{
+
+    font-size: 70px;
+    line-height: 70px;
+    color:#FF0044;
+    flex-direction:center;
 }
